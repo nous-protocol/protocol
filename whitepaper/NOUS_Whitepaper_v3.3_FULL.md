@@ -4,8 +4,6 @@
 
 **Whitepaper v3.3-FULL — February 2026
 
-*CONFIDENTIAL — For Discussion Purposes Only*
-
 ---
 
 # Abstract
