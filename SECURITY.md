@@ -1,0 +1,8 @@
+# Security Policy
+
+## Reporting
+If you discover a security issue, please report it privately to the maintainers.
+Do not open a public issue for exploits or sensitive vulnerabilities.
+
+## Scope
+This repo currently focuses on documentation and early protocol design.
