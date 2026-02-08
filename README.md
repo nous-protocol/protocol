@@ -18,10 +18,10 @@ This repository is the canonical home for the **whitepaper**, **protocol specs**
 
 ## Repository layout
 
-- `whitepaper/` — Latest whitepapers (FULL + spec)
-- `spec/` — Normative protocol specs (drafts become binding over time)
-- `docs/` — Investor memo, design notes, and supporting documents
-- `src/` — Reference implementations (placeholder for now)
+- [`whitepaper/`](whitepaper/) — Latest whitepapers (FULL + spec)
+- [`spec/`](spec/) — Normative protocol specs (drafts become binding over time)
+- [`docs/`](docs/) — Investor memo, design notes, and supporting documents
+- [`src/`](src/) — Reference implementations (placeholder for now)
 
 ---
 
@@ -30,17 +30,17 @@ This repository is the canonical home for the **whitepaper**, **protocol specs**
 This repo is **documentation-first** while the protocol is being finalized.
 
 **Near-term outputs:**
-1) Finalize v3.3 whitepaper wording and terminology
-2) Convert key sections into normative specs (PoI, routing/tiers, treasury flows)
+1) Finalize v3.3 whitepaper wording and terminology  
+2) Convert key sections into normative specs (PoI, routing/tiers, treasury flows)  
 3) Publish a benchmark harness plan + testnet acceptance criteria
 
 ---
 
 ## Read first
 
-- **Whitepaper (FULL):** `whitepaper/NOUS_Whitepaper_v3.3_FULL.md`
-- **Whitepaper (SPEC / diligence):** `whitepaper/NOUS_Whitepaper_v3.3_SPEC.md`
-- **Investor memo:** `docs/NOUS_Investor_Memo_v3.3.md`
+- **Whitepaper (FULL):** [v3.3 FULL](whitepaper/NOUS_Whitepaper_v3.3_FULL.md)
+- **Whitepaper (SPEC / diligence):** [v3.3 SPEC](whitepaper/NOUS_Whitepaper_v3.3_SPEC.md)
+- **Investor memo:** [v3.3](docs/NOUS_Investor_Memo_v3.3.md)
 
 ---
 
@@ -49,27 +49,28 @@ This repo is **documentation-first** while the protocol is being finalized.
 We welcome issues and PRs, but we want to keep changes reviewable and threat-model grounded.
 
 **Before a PR:**
-- Open a **[proposal]** issue describing motivation, design, and threat model.
+- Open a **protocol proposal** issue (use the template):  
+  - [New proposal](../../issues/new?template=protocol_proposal.md)
 - If you add performance claims, include a benchmark harness plan.
 - If you add slashing/verification logic, include adversary assumptions and failure recovery.
 
-See: `CONTRIBUTING.md`
+See: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
 ## Security
 
 Please report vulnerabilities privately.  
-See: `SECURITY.md`
+See: [SECURITY.md](SECURITY.md)
 
 ---
 
 ## License
 
-MIT — see `LICENSE`.
+MIT — see [LICENSE](LICENSE).
 
 ---
 
 ## Disclaimer
 
-This repository is for research and development purposes. It does not constitute an offer to sell or a solicitation to buy any tokens or securities. Regulatory classification may vary by jurisdiction.
+This repository is for research and development purposes only. It does not constitute an offer to sell or a solicitation to buy any tokens or securities. Regulatory classification may vary by jurisdiction.
